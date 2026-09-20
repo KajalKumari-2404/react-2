@@ -10,6 +10,7 @@ import React, { useCallback, useEffect, useRef, useState } from 'react'
   //useRef hook
   const passwordRef = useRef(null)
 
+   //useCallback
   const passwordGenerator = useCallback(() => {
     let pass = ""
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
