@@ -90,7 +90,7 @@ import React, { useCallback, useEffect, useRef, useState } from 'react'
     </div>
     </>
   )
-}
+};
 
 export default App;
 
