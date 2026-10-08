@@ -25,7 +25,6 @@ import React, { useCallback, useEffect, useRef, useState } from 'react'
     }
     setPassword(pass)
 
-
   }, [length, numberAllowed,charAllowed,setPassword])
   // passwordGenerator()
 
@@ -82,7 +81,7 @@ import React, { useCallback, useEffect, useRef, useState } from 'react'
           onChange={() => {
             setCharAllowed((prev) => !prev);
           }}
-         />
+          />
          <label className='text-orange-400' htmlFor="characterInput">Characters</label>
 
       </div>
